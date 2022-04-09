@@ -1,0 +1,22 @@
+Migrating: 2021_09_22_200301_create_produtos_users_table
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'produtos_users' already exists (SQL: create table `produtos_users` (`id` bigint unsigned not null auto_increment primary key, `produto_id` bigint unsigned not null, `user_id` bigint unsigned not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci')
+
+  at C:\xampp\htdocs\housesg\vendor\laravel\framework\src\Illuminate\Database\Connection.php:692
+    688▕         // If an exception occurs when attempting to run a query, we'll format the error
+    689▕         // message to include the bindings with SQL, which will make this exception a
+    690▕         // lot more helpful to the developer instead of just the database's errors.
+    691▕         catch (Exception $e) {
+  ➜ 692▕             throw new QueryException(
+    693▕                 $query, $this->prepareBindings($bindings), $e
+    694▕             );
+    695▕         }
+    696▕     }
+
+  1   C:\xampp\htdocs\housesg\vendor\laravel\framework\src\Illuminate\Database\Connection.php:485
+      PDOException::("SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'produtos_users' already exists")
+
+  2   C:\xampp\htdocs\housesg\vendor\laravel\framework\src\Illuminate\Database\Connection.php:485
+      PDOStatement::execute()

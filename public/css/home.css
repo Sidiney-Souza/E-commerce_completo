@@ -1,0 +1,27 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.cabecalho {
+    background-color: gray;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    list-style-type: none;
+}
+
+.item {
+    padding-top: 10px;
+}
+
+.item-pai {
+    flex-direction: row;
+    font-size: 30px;
+    font color: white;
+}
+
+.fundo {
+    width: auto;
+}

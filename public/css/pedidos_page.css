@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font: normal 1em Roboto;
+    color: #5E5E5E;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ok {
+    font-size: 7em;
+}
+
+.search {
+    padding-top: 12px;
+    margin: none;
+
+}
+  
+.conteudo {
+    background: rgb(248, 248, 248);
+    padding: 50px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px gray;
+    height: auto;
+    margin-bottom: 50px;
+
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+main {
+    color: white;
+}
+
+#logcart {
+    color: #141414;
+    margin-right: 12px;
+    background: white;
+    border-radius: 3px;
+}
+
+.img-logo {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    /* background: url('https://cdn-102.anonfiles.com/13o2H7P7xe/19a7f989-1647807588/logo-siriguela.png') center; */
+    background-size: 50px 50px;
+    filter: invert();
+
+
+}
+
+.titulo {
+    font-size: 3em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #8f6b61;
+}
+
+th {
+    color: #171717;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table {
+    border: none;
+}
+
+.my_shopping {
+    text-align: left;
+    border-left: 6px solid black;
+    padding: 0px 10px;
+    border-radius: 3px;
+    border-color: #C1877B;
+    
+}
+
+.linha_produto{
+    /* height: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagem_produto{
+    width: 64px;
+}
+
+.coluna_imagem_produto{
+    width: 100px;
+    padding: 10px;
+    
+}
+
+
+/* centralizar as linhas */
+thead th{
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.botao_cancelar_compra{
+    padding: 10px;
+    font-size: 0px;
+    background: rgb(255, 68, 68);
+    border-radius: 12px;
+}
